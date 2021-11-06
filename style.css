@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.all {
+    font-family: Tahoma;
+
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    text-align: center;
+    color: #FFF;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.menu > ul{
+    background-color: green;
+    width: auto;
+    height: 35px;
+}
+
+.menu > ul > li {
+    list-style: none;
+    float: left;
+    padding: 0 20px;
+    position: relative;
+}
+
+.menu > ul > li > a{
+    color: #FFF;
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu > ul > li > a:hover {
+    color: yellow;
+}
+.menu > ul > li:hover {
+    background-color: rgb(29,162,97);
+    color: yellow;
+}
+
+.fmenu {
+    display: none;
+    position: absolute;
+    background-color: green;
+    width: 320px;
+    min-height: 100px;
+    left: 0;
+}
+
+.fmenu > li {
+    list-style: none;
+    width: 100%;
+    height: 50px;
+}
+
+.fmenu > li > a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color:yellow;
+}
+
+.menu > ul > li:hover .fmenu {
+    display: block;
+}
+
+.fmenu > li:hover {
+    background-color: rgb(29,162,97);
+}
+
+
+.box {
+    background-color:blue;
+    width: 80%;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+}
+ .box h2 {
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+
+    padding-top: 10px;
+ }
+
+
+ #ip1 {
+    width: 400px;
+    height: 20px;
+ }
+ .input{
+    text-align: start;
+    margin-top: 20px;
+    text-indent: 213px;
+ }
+ #op1 {
+    width: 400px;
+    height: 20px;
+ }
+ .output{
+    text-align: start;
+    margin-top: 20px;
+    text-indent: 70px;
+    margin-bottom: 30px;
+}
+
+
+footer {
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 50px;
+}
